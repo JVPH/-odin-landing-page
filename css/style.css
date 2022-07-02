@@ -38,8 +38,6 @@ body {
     gap: 40px;
 }
 
-
-
 .content-section-1 .main-title {
     font-size: 48px;
     font-weight: bolder;
@@ -50,12 +48,40 @@ body {
     font: 18px;
     color: #E5E7EB;
 }
+.content-section-2 {
+    text-align: center;
+    padding: 42px;
+}
+
+.content-section-2 .title {
+    margin-bottom: 32px;    
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.content-section-2 .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.content-section-2 .info {
+    max-width: 200px;
+}
+
+.content-section-2 img {
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+}
 
 button {
     background-color:#3882F6;
     color: #F9FAF8;
     padding: 4px 8px;
     border-radius: 10px;
+    font-weight: bold;
+    border-color: #3882F6;
 }
 
 a {
